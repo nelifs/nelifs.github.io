@@ -1,0 +1,69 @@
+body {
+    font-family: Montserrat;
+    background-color: rgb(32, 32, 38);
+    overflow-x: hidden;
+}
+
+.image {
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    flex: auto;
+    margin-top: 10%;
+}
+.title .img {
+    transition: all 2s ease;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+.title .img:hover {
+    filter: hue-rotate(360deg);
+    animation-duration: 2.5s;
+    animation-name: bub;
+    animation-iteration-count: infinite;
+}
+@keyframes bub {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+.title h1 {
+    color: white;
+}
+.title h2 {
+    margin-top: -15px;
+}
+
+
+.tables {
+    display: flex;
+    flex: auto;
+}
+
+.table1 {
+    color: white;
+    /* width: 700px;
+    height: 200px; */
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.table1 p {
+    color: white;
+    padding: 35px;
+    font-size: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(23, 23, 27);
+}
