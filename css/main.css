@@ -54,6 +54,7 @@ body {
     height: 200px; 
     border-radius: 10px; */
     text-align: center;
+    margin-top: -20px;
 }
 .table1 p {
     color: white;
