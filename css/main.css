@@ -15,29 +15,23 @@ body {
     flex: auto;
     margin-top: 10%;
 }
+
 .title .img {
     transition: all 2s ease;
     border-radius: 50%;
     max-width: 200px;
     max-height: 200px;
 }
+
 .title .img:hover {
     filter: hue-rotate(360deg);
-    animation-duration: 2.5s;
-    animation-name: bub;
-    animation-iteration-count: infinite;
+    filter: hue-rotate(360deg);
 }
-@keyframes bub {
-    from {
-        filter: hue-rotate(0deg);
-    }
-    to {
-        filter: hue-rotate(360deg);
-    }
-}
+
 .title h1 {
     color: white;
 }
+
 .title h2 {
     margin-top: -15px;
 }
@@ -56,6 +50,7 @@ body {
     text-align: center;
     margin-top: -20px;
 }
+
 .table1 p {
     color: white;
     padding: 35px;
