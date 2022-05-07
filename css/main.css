@@ -51,10 +51,9 @@ body {
 .table1 {
     color: white;
     /* width: 700px;
-    height: 200px; */
-    border-radius: 10px;
+    height: 200px; 
+    border-radius: 10px; */
     text-align: center;
-    margin-top: 10px;
 }
 .table1 p {
     color: white;
