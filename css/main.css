@@ -1,12 +1,7 @@
 body {
     font-family: Montserrat;
-    background-color: rgb(32, 32, 38);
+    background-color:rgb(32, 32, 38);
     overflow-x: hidden;
-}
-
-.image {
-    max-width: 16px;
-    max-height: 16px;
 }
 
 .title {
@@ -37,12 +32,7 @@ body {
 }
 
 
-.tables {
-    display: flex;
-    flex: auto;
-}
-
-.table1 {
+.info {
     color: white;
     /* width: 700px;
     height: 200px; 
@@ -51,14 +41,8 @@ body {
     margin-top: -20px;
 }
 
-.table1 p {
+.info p {
     color: white;
     padding: 35px;
     font-size: 40px;
-}
-
-.footer {
-    width: 100%;
-    height: 10%;
-    background-color: rgb(23, 23, 27);
 }
