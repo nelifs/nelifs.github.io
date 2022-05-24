@@ -1,7 +1,8 @@
 body {
     font-family: Montserrat;
     background: rgb(32, 32, 38);
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .bg {
@@ -11,7 +12,7 @@ body {
     top: -12px;
     right: -12px;
     bottom: -12px;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
     width: 100%;
     height: 100%;
     filter: blur(4px) brightness(25%);
@@ -56,4 +57,21 @@ body {
     color: white;
     padding: 35px;
     font-size: 40px;
+    transition: all 500ms ease;
+}
+
+@media only screen and (max-width: 1200px) {
+    .bg {
+        width: auto;
+        height: auto;
+        transform: scale(1.5, 1.5);
+    }
+    body {
+        overflow-y: visible;
+    }
+}
+@media only screen and (max-width: 630px) {
+    .info p {
+        font-size: 30px
+    }
 }
