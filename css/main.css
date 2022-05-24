@@ -1,7 +1,6 @@
 body {
     font-family: Montserrat;
-    /* background: rgb(32, 32, 38); */
-    background: url(/assets/background.jpg) no-repeat center;
+    background: rgb(32, 32, 38);
     overflow: hidden;
 }
 
