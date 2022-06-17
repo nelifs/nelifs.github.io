@@ -74,6 +74,10 @@ body {
     .info p {
         font-size: 30px
     }
+
+    body {
+        overflow: hidden;
+    }
 }
 
 body {
