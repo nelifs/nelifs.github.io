@@ -68,6 +68,7 @@ body {
     }
     body {
         overflow-y: visible;
+        overflow-x: hidden;
     }
 }
 @media only screen and (max-width: 630px) {
@@ -76,7 +77,8 @@ body {
     }
 
     body {
-        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 }
 
